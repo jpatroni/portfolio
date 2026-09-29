@@ -1,0 +1,11 @@
+Coloca aquí las siguientes imágenes con estos nombres exactos:
+
+- foto-perfil.jpg       -> fotografía profesional de Julieta Patroni
+- dashboard-vw.png      -> captura del Dashboard de Calidad Volkswagen
+- turnero.png           -> captura del Sistema de Turnos
+
+Mientras no agregues estas imágenes, el sitio muestra un placeholder
+visual generado con CSS (sin iconos de imagen rota), manteniendo el
+espacio y las proporciones del diseño.
+
+Podés borrar este archivo una vez que hayas agregado las imágenes reales.

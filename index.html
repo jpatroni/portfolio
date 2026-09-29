@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julieta Marisol Patroni · Desarrolladora de Software C# / .NET</title>
+  <meta name="description" content="Portfolio de Julieta Marisol Patroni, desarrolladora de software en formación (C#, .NET, SQL) con experiencia previa en soporte IT e infraestructura corporativa.">
+  <meta name="keywords" content="Julieta Patroni, desarrolladora de software, C#, .NET, SQL, SQL Server, PostgreSQL, IT Specialist, portfolio">
+  <meta name="author" content="Julieta Marisol Patroni">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#fff6f4">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Julieta Marisol Patroni · Desarrolladora de Software C# / .NET">
+  <meta property="og:description" content="De soporte e infraestructura al desarrollo de soluciones backend con C# y .NET.">
+  <meta property="og:image" content="https://AGREGAR-URL-DEL-SITIO/img/foto-perfil.jpg">
+  <meta property="og:url" content="https://AGREGAR-URL-DEL-SITIO/">
+  <meta property="og:locale" content="es_AR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Julieta Marisol Patroni · Desarrolladora de Software C# / .NET">
+  <meta name="twitter:description" content="De soporte e infraestructura al desarrollo de soluciones backend con C# y .NET.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,700&family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Íconos de tecnologías (Devicon) y generales (Bootstrap Icons) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Tema: se aplica antes de pintar para evitar parpadeo -->
+  <script>
+    (function () {
+      var saved = null;
+      try { saved = localStorage.getItem("theme"); } catch (e) {}
+      var dark = saved ? saved === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+      if (dark) document.documentElement.setAttribute("data-theme", "dark");
+    })();
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#inicio" class="logo" aria-label="Ir al inicio"><span class="logo-text">JP</span><span class="logo-dot">.</span></a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+      <label for="nav-toggle" class="nav-toggle-label" aria-controls="nav-menu">
+        <span class="hamburger-icon" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span class="visually-hidden">Abrir menú de navegación</span>
+      </label>
+
+      <nav class="main-nav" id="nav-menu" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#conocimientos">Conocimientos</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#redes">Redes</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Activar modo oscuro" aria-pressed="false">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ===================== INICIO ===================== -->
+    <section id="inicio" class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Desarrolladora de Software · C# / .NET · IT Specialist</p>
+          <h1>Julieta Marisol <em>Patroni</em></h1>
+          <p class="hero-lead">Del soporte y la infraestructura al desarrollo de soluciones que transforman negocios.</p>
+          <p class="hero-desc">
+            Combino mi experiencia en tecnología corporativa con mi formación en programación
+            para desarrollar soluciones prácticas, escalables y orientadas a problemas reales.
+          </p>
+
+          <div class="status-indicator" role="status">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Enfocada en formación y proyectos de desarrollo backend</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#proyectos" class="btn btn-primary">Ver mis proyectos</a>
+            <a href="cv/Julieta_Patroni_CV.pdf" class="btn btn-secondary" download>Descargar CV</a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="foto-perfil">
+            <img src="img/foto-perfil.jpg" alt="Fotografía de perfil de Julieta Marisol Patroni" width="640" height="640">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE MÍ ===================== -->
+    <section id="sobre-mi" class="section">
+      <div class="section-inner">
+        <h2 class="section-title"><span class="section-number">01</span> Sobre mí</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Comencé mi trayectoria tecnológica durante mi carrera en el Ejército Argentino, donde adquirí
+              experiencia técnica, disciplina y habilidades de resolución de problemas.
+            </p>
+            <p>
+              Posteriormente desarrollé mi carrera en soporte IT corporativo, trabajando con usuarios,
+              infraestructura, dispositivos, redes y herramientas empresariales.
+            </p>
+            <p>
+              Actualmente trabajo para <strong>adidas Argentina</strong>, brindando soporte tecnológico en su
+              entorno corporativo.
+            </p>
+            <p>
+              Paralelamente, estudio programación en la <strong>Universidad Tecnológica Nacional</strong> y
+              desarrollo proyectos propios orientados a soluciones empresariales.
+            </p>
+            <p>
+              Mi objetivo es especializarme en desarrollo backend con C# y .NET, aprovechando mi experiencia
+              previa para construir herramientas útiles.
+            </p>
+          </div>
+
+          <aside class="quick-facts" aria-label="Datos rápidos">
+            <h3>Datos rápidos</h3>
+            <dl>
+              <div class="fact">
+                <dt>Ubicación</dt>
+                <dd>Buenos Aires, Argentina</dd>
+              </div>
+              <div class="fact">
+                <dt>Idiomas</dt>
+                <dd>Español nativo · Inglés C1 · Portugués básico</dd>
+              </div>
+              <div class="fact">
+                <dt>Educación</dt>
+                <dd>Tecnicatura Universitaria en Programación — UTN, en curso</dd>
+              </div>
+              <div class="fact">
+                <dt>Experiencia actual</dt>
+                <dd>IT Specialist — adidas Argentina</dd>
+              </div>
+              <div class="fact">
+                <dt>Especialización</dt>
+                <dd>C#, .NET y SQL</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+
+        <div class="timeline">
+          <h3>Trayectoria</h3>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <span class="timeline-marker" aria-hidden="true"></span>
+              <div class="timeline-content">
+                <h4>Formación y experiencia técnica</h4>
+                <p>Carrera en el Ejército Argentino: primeras bases técnicas, disciplina y resolución de problemas.</p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <span class="timeline-marker" aria-hidden="true"></span>
+              <div class="timeline-content">
+                <h4>Soporte IT e infraestructura</h4>
+                <p>Experiencia en soporte corporativo, gestión de dispositivos, redes y herramientas empresariales.</p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <span class="timeline-marker" aria-hidden="true"></span>
+              <div class="timeline-content">
+                <h4>2025 — actualidad: adidas Argentina</h4>
+                <p>IT Specialist · Soporte tecnológico en el entorno corporativo.</p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <span class="timeline-marker" aria-hidden="true"></span>
+              <div class="timeline-content">
+                <h4>Actualidad: formación en desarrollo</h4>
+                <p>Tecnicatura en Programación (UTN) y desarrollo de proyectos propios en C#, .NET y SQL.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONOCIMIENTOS ===================== -->
+    <section id="conocimientos" class="section section-alt">
+      <div class="section-inner">
+        <h2 class="section-title"><span class="section-number">02</span> Conocimientos técnicos</h2>
+        <p class="section-intro">
+          Habilidades profesionales consolidadas y tecnologías que estoy incorporando actualmente en mi
+          camino hacia el desarrollo backend.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Desarrollo</h3>
+            <ul class="skill-list">
+              <li><i class="devicon-csharp-plain skill-icon" aria-hidden="true"></i><span class="skill-name">C#</span></li>
+              <li><i class="devicon-cplusplus-plain skill-icon" aria-hidden="true"></i><span class="skill-name">C++</span></li>
+              <li><i class="devicon-javascript-plain skill-icon" aria-hidden="true"></i><span class="skill-name">JavaScript</span></li>
+              <li><i class="devicon-html5-plain skill-icon" aria-hidden="true"></i><span class="skill-name">HTML5</span></li>
+              <li><i class="devicon-css3-plain skill-icon" aria-hidden="true"></i><span class="skill-name">CSS3</span></li>
+              <li><i class="bi bi-boxes skill-icon" aria-hidden="true"></i><span class="skill-name">Programación orientada a objetos</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Backend y datos</h3>
+            <ul class="skill-list">
+              <li class="in-progress"><i class="devicon-dotnetcore-plain skill-icon" aria-hidden="true"></i><span class="skill-name">.NET <span class="tag">En formación</span></span></li>
+              <li><i class="bi bi-database skill-icon" aria-hidden="true"></i><span class="skill-name">SQL</span></li>
+              <li><i class="devicon-microsoftsqlserver-plain skill-icon" aria-hidden="true"></i><span class="skill-name">SQL Server</span></li>
+              <li><i class="devicon-postgresql-plain skill-icon" aria-hidden="true"></i><span class="skill-name">PostgreSQL</span></li>
+              <li><i class="bi bi-diagram-3 skill-icon" aria-hidden="true"></i><span class="skill-name">Diseño de bases de datos</span></li>
+              <li class="in-progress"><i class="bi bi-plug skill-icon" aria-hidden="true"></i><span class="skill-name">API REST <span class="tag">En formación</span></span></li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Herramientas</h3>
+            <ul class="skill-list">
+              <li><i class="devicon-git-plain skill-icon" aria-hidden="true"></i><span class="skill-name">Git</span></li>
+              <li><i class="devicon-github-original skill-icon" aria-hidden="true"></i><span class="skill-name">GitHub</span></li>
+              <li><i class="devicon-visualstudio-plain skill-icon" aria-hidden="true"></i><span class="skill-name">Visual Studio</span></li>
+              <li><i class="devicon-vscode-plain skill-icon" aria-hidden="true"></i><span class="skill-name">Visual Studio Code</span></li>
+              <li><i class="devicon-microsoftsqlserver-plain skill-icon" aria-hidden="true"></i><span class="skill-name">SQL Server Management Studio</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Infraestructura y sistemas</h3>
+            <ul class="skill-list">
+              <li><i class="devicon-windows11-original skill-icon" aria-hidden="true"></i><span class="skill-name">Windows</span></li>
+              <li><i class="bi bi-laptop skill-icon" aria-hidden="true"></i><span class="skill-name">Microsoft Intune</span></li>
+              <li><i class="bi bi-microsoft skill-icon" aria-hidden="true"></i><span class="skill-name">Microsoft 365</span></li>
+              <li><i class="bi bi-people-fill skill-icon" aria-hidden="true"></i><span class="skill-name">Active Directory</span></li>
+              <li><i class="bi bi-shield-check skill-icon" aria-hidden="true"></i><span class="skill-name">Microsoft Defender</span></li>
+              <li><i class="bi bi-hdd-network skill-icon" aria-hidden="true"></i><span class="skill-name">SCCM</span></li>
+              <li><i class="bi bi-router skill-icon" aria-hidden="true"></i><span class="skill-name">Redes y troubleshooting</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="skills-legend">
+          <span class="tag">En formación</span> indica tecnologías que estoy aprendiendo actualmente. El resto
+          corresponde a conocimientos consolidados por experiencia práctica o académica.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== PROYECTOS ===================== -->
+    <section id="proyectos" class="section">
+      <div class="section-inner">
+        <h2 class="section-title"><span class="section-number">03</span> Proyectos</h2>
+        <p class="section-intro">
+          Proyectos propios y académicos donde aplico programación orientada a objetos, C#, .NET y bases de datos.
+        </p>
+
+        <div class="featured-projects">
+
+          <!-- Proyecto destacado 1 -->
+          <article class="project-card project-card--featured">
+            <div class="project-thumb project-thumb--streamnauta" role="img" aria-label="Logo de Streamnauta: Tu próximo nivel comienza acá"></div>
+            <div class="project-body">
+              <p class="project-category">Plataforma SaaS · Analítica para creadores de contenido</p>
+              <h3>Streamnauta</h3>
+              <p class="project-desc">
+                Plataforma de analítica y seguimiento de métricas orientada a pequeños streamers que buscan
+                profesionalizar su actividad. Su objetivo es centralizar información de diferentes plataformas,
+                ayudar a interpretar métricas y acompañar a los creadores en el cumplimiento de sus objetivos.
+              </p>
+              <ul class="project-tech">
+                <li>C#</li>
+                <li>.NET</li>
+                <li>Arquitectura orientada a objetos</li>
+              </ul>
+              <dl class="project-meta">
+                <div><dt>Mi rol</dt><dd>Ideación, diseño de dominio y desarrollo</dd></div>
+                <div><dt>Estado</dt><dd><span class="status-pill status-pill--progress">En desarrollo</span></dd></div>
+              </dl>
+              <a href="https://github.com/jpatroni/StreamNauta" class="project-link" target="_blank" rel="noopener noreferrer">
+                Ver repositorio en GitHub ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Proyecto destacado 2 -->
+          <article class="project-card project-card--featured">
+            <div class="project-thumb project-thumb--dashboard-vw" role="img" aria-label="Captura del Dashboard de Calidad Volkswagen">
+              <span class="project-thumb-fallback" aria-hidden="true">Dashboard de Calidad VW</span>
+            </div>
+            <div class="project-body">
+              <p class="project-category">Aplicación web · Business Intelligence</p>
+              <h3>Dashboard de Calidad Volkswagen</h3>
+              <p class="project-desc">
+                Aplicación web para visualizar los indicadores de calidad de Volkswagen Argentina, organizada en tres
+                pilares: Cliente, Supply Chain y Proceso. Incluye KPIs y tendencias, análisis Cp/Cpk, resumen de
+                auditorías y carga validada de archivos Excel, con una arquitectura MVC basada en componentes
+                reutilizables y preparada para integrarse con Power BI.
+              </p>
+              <ul class="project-tech">
+                <li>C#</li>
+                <li>ASP.NET Core MVC</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>PostgreSQL</li>
+              </ul>
+              <dl class="project-meta">
+                <div><dt>Mi rol</dt><dd>Desarrollo en equipo (UTN) y presentación del proyecto a Volkswagen Argentina</dd></div>
+                <div><dt>Estado</dt><dd><span class="status-pill status-pill--done">✓ Finalizado</span></dd></div>
+              </dl>
+              <a href="https://github.com/jpatroni/Dashboard-UTN-VW" class="project-link" target="_blank" rel="noopener noreferrer">
+                Ver repositorio en GitHub ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Proyecto destacado 3 -->
+          <article class="project-card project-card--featured">
+            <div class="project-thumb project-thumb--turnero" role="img" aria-label="Captura del Sistema de Turnos">
+              <span class="project-thumb-fallback" aria-hidden="true">Sistema de Turnos</span>
+            </div>
+            <div class="project-body">
+              <p class="project-category">Aplicación de gestión</p>
+              <h3>Sistema de Turnos</h3>
+              <p class="project-desc">
+                Proyecto orientado al aprendizaje y aplicación práctica de C#, .NET y bases de datos mediante
+                el desarrollo de un sistema de gestión de turnos.
+              </p>
+              <ul class="project-tech">
+                <li>C#</li>
+                <li>.NET</li>
+                <li>SQL Server</li>
+              </ul>
+              <dl class="project-meta">
+                <div><dt>Mi rol</dt><dd>Desarrollo</dd></div>
+                <div><dt>Estado</dt><dd><span class="status-pill status-pill--review">A verificar antes de publicar</span></dd></div>
+              </dl>
+              <a href="https://github.com/jpatroni/modulo-turnero" class="project-link" target="_blank" rel="noopener noreferrer">
+                Ver repositorio en GitHub ↗
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <h3 class="other-projects-title">Otros proyectos</h3>
+        <div class="other-projects-grid">
+          <article class="project-card project-card--placeholder">
+            <p>Próximamente se sumarán nuevos proyectos de programación, automatización e infraestructura.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== REDES ===================== -->
+    <section id="redes" class="section section-alt">
+      <div class="section-inner">
+        <h2 class="section-title"><span class="section-number">04</span> Redes profesionales</h2>
+
+        <ul class="social-grid">
+          <li>
+            <a href="https://www.linkedin.com/in/julieta-patroni-b5178425b" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Julieta Patroni (se abre en una pestaña nueva)">
+              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M4.98 3.5C4.98 4.88 3.94 6 2.5 6S0 4.88 0 3.5 1.06 1 2.5 1s2.48 1.12 2.48 2.5zM.22 8.24H4.7V23H.22V8.24zM8.4 8.24h4.28v2.02h.06c.6-1.13 2.06-2.32 4.24-2.32 4.53 0 5.37 2.98 5.37 6.86V23h-4.47v-6.98c0-1.67-.03-3.81-2.32-3.81-2.33 0-2.69 1.82-2.69 3.7V23H8.4V8.24z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/jpatroni" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Julieta Patroni (se abre en una pestaña nueva)">
+              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.94.57.1.78-.25.78-.55v-2.14c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.29-1.68-1.29-1.68-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.72-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.08.78 2.18v3.24c0 .3.2.65.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:julietapatroni15@gmail.com" class="social-link" aria-label="Enviar correo a Julieta Patroni">
+              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm1.4 2 8.6 6.6L20.6 6H3.4zM3 8.2V18h18V8.2l-9 6.9-9-6.9z"/>
+              </svg>
+              <span>Email</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/5491154818933" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp (se abre en una pestaña nueva)">
+              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.2-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.5-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2 0-.3-.1-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.1s.9 2.5 1.1 2.7c.2.2 1.7 2.6 4.1 3.6 2.4 1 2.4.7 2.8.6.4 0 1.3-.5 1.5-1 .2-.5.2-.9.1-1-.1-.1-.2-.1-.4-.2zM12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5-1.3c1.4.8 3.1 1.3 4.9 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2z"/>
+              </svg>
+              <span>WhatsApp</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section id="contacto" class="section">
+      <div class="section-inner">
+        <h2 class="section-title"><span class="section-number">05</span> Contacto</h2>
+        <p class="section-intro">
+          ¿Tenés una propuesta, un proyecto o querés conversar? Escribime o llamame y te respondo a la brevedad.
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm1.4 2 8.6 6.6L20.6 6H3.4zM3 8.2V18h18V8.2l-9 6.9-9-6.9z"/>
+            </svg>
+            <div>
+              <p class="contact-label">Email</p>
+              <a href="mailto:julietapatroni15@gmail.com" class="contact-value">julietapatroni15@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1l-2.2 2.23z"/>
+            </svg>
+            <div>
+              <p class="contact-label">Celular / WhatsApp</p>
+              <a href="tel:+5491154818933" class="contact-value">11 5481-8933</a>
+              <a href="https://wa.me/5491154818933" class="contact-extra" target="_blank" rel="noopener noreferrer">Escribime por WhatsApp ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© 2026 Julieta Marisol Patroni. Todos los derechos reservados.</p>
+      <a href="#inicio" class="back-to-top">Volver al inicio ↑</a>
+      <p class="footer-tag" aria-hidden="true">&lt;/&gt; hecho con HTML, CSS &amp; un toque de JS</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var btn = document.getElementById("theme-toggle");
+      function sync() {
+        var dark = root.getAttribute("data-theme") === "dark";
+        btn.setAttribute("aria-pressed", String(dark));
+        btn.setAttribute("aria-label", dark ? "Activar modo claro" : "Activar modo oscuro");
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute("content", dark ? "#1a1320" : "#fff6f4");
+      }
+      btn.addEventListener("click", function () {
+        var dark = root.getAttribute("data-theme") !== "dark";
+        if (dark) root.setAttribute("data-theme", "dark"); else root.removeAttribute("data-theme");
+        try { localStorage.setItem("theme", dark ? "dark" : "light"); } catch (e) {}
+        sync();
+      });
+      sync();
+    })();
+  </script>
+
+</body>
+</html>

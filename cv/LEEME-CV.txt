@@ -1,0 +1,6 @@
+Coloca aquí tu CV en PDF con este nombre exacto:
+
+- Julieta_Patroni_CV.pdf
+
+El botón "Descargar CV" del sitio (index.html) ya apunta a esta ruta.
+Podés borrar este archivo una vez que hayas agregado el PDF real.
